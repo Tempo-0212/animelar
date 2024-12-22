@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    background: rgba(16, 18, 32, 1);
+}
+
+.container {
+    max-width: 85%;
+    margin: auto;
+}
+
+.navbar {
+    margin-top: 20px;
+    background: rgba(16, 18, 32, 1);
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.dropdown {
+    width: 100px;
+    text-align: center;
+    position: relative;
+    padding-right: 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+
+.dropdown-content>div {
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.anime>div:hover {
+    background: rgba(191, 175, 242, 1);
+}
+
+.selected-option {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.anime {
+    width: 99px;
+    height: 111px;
+    top: 53px;
+    left: 312px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    opacity: 0px;
+    border-radius: 10px;
+    background: rgba(35, 32, 40, 1);
+    box-shadow: 0px 0px 11px 0px rgba(255, 255, 255, 1);
+}
+
+.anime>div {
+    font-family: Poppins;
+    font-size: 15px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 5px;
+    border-radius: 10px;
+    margin-left: 1px;
+    margin-bottom: 11px;
+    border: none;
+}
+
+.selected-option:hover {
+    cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.selected-option>img {
+    background-color: transparent;
+    height: 100%;
+}
+
+.dropdown:hover img {
+    transform: rotate(180deg);
+}
+
+
+select {
+    color: white;
+}
+
+
+.kirish {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 450px;
+}
+
+.kirish p {
+    width: 115px;
+    height: 32px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+.kirish button {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(51, 51, 51, 1);
+    width: 175px;
+    height: 50px;
+    gap: 0px;
+    border-radius: 15px;
+    background: rgba(191, 175, 242, 1);
+    opacity: 0px;
+}
+
+
+
+
+.sct1 {
+    margin-top: 150px;
+}
+
+
+.info-gojo {
+    position: relative;
+    z-index: 10;
+    width: 325px;
+    height: 240px;
+    gap: 0px;
+    border-radius: 30px;
+    opacity: 0px;
+    background: rgba(35, 32, 40, 1);
+}
+
+.info-gojo h2 {
+    margin-left: 15px;
+    position: absolute;
+    margin-top: 45px;
+    z-index: 10;
+    background: rgba(35, 32, 40, 1);
+    width: 293px;
+    height: 38px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Outfit;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.4px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.animelar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.info-gojo p {
+    margin-left: 10px;
+    margin-top: 100px;
+    background: rgba(35, 32, 40, 1);
+    position: absolute;
+    width: 293px;
+    height: 102px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Outfit;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+}
